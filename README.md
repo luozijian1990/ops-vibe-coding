@@ -142,6 +142,8 @@ flowchart TD
 
 - 第一次体验、Demo 或低风险小工具：阅读 [Quick Start](docs/01-quick-start.md)，走 [Lightweight Track](workflows/lightweight.md)。
 - 团队工具、长期维护、生产或敏感操作：直接走 [Full Track](workflows/full.md)。
+- 想理解每个阶段为什么这样设计：阅读阶段深潜系列 [02](docs/02-prototype-first.md) → [03](docs/03-architecture-and-sdd.md) → [04](docs/04-context-engineering.md) → [05](docs/05-tdd-and-feedback-loop.md) → [06](docs/06-ops-readiness.md) → [07](docs/07-e2e-and-human-acceptance.md)。
+- 快速消疑：查看 [FAQ](docs/08-faq.md)。
 - 想知道每一步留下什么：查看 [Artifact Map](references/artifacts.md)。
 - 想知道各阶段如何复用现有能力：查看 [Skill Map](references/skills.md)。
 
