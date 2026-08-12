@@ -1,0 +1,18 @@
+version: 1
+
+services:
+  restart-api:
+    owner: cluster-operations
+    contract: contracts/restart-api.openapi.yaml
+    depends_on:
+      - service: audit-api
+        purpose: 记录生产变更审计
+        criticality: required
+
+  operations-web:
+    owner: platform-frontend
+    consumes:
+      - service: restart-api
+        contract: contracts/restart-api.openapi.yaml
+
+# 接口字段只在 IDL 中维护；Service Matrix 只记录服务关系。
