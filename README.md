@@ -133,6 +133,7 @@ flowchart TD
 
 ## 适合谁
 
+- 打算学习 Vibe Coding、希望借助 AI Agent 把运维想法变成软件，但不知道从哪一步开始的运维工程师；
 - 熟悉运维业务，但不一定具备产品、前端或全栈开发经验的人；
 - 正在建设 Kubernetes、监控告警、Incident、AIOps 或远程执行工具的团队；
 - 希望让 Claude Code、Codex、OpenCode 等 Agent 参与开发，同时保留人工决策门禁的人；
