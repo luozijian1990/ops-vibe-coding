@@ -142,6 +142,7 @@ flowchart TD
 ## 从这里开始
 
 - 第一次体验、Demo 或低风险小工具：阅读 [Quick Start](docs/01-quick-start.md)，走 [Lightweight Track](workflows/lightweight.md)。
+- 想直接查看 Full Track 每个阶段会留下什么：阅读 [Kubernetes Deployment Restart Golden Path](examples/kubernetes-deployment-restart/README.md) 教学示例。
 - 想让 Codex、Claude Code、OpenCode 等 Agent 在多个 Ticket 和多个 Session 中稳定遵循这套流程：阅读 [Harness Engineering](harness/README.md)。
 - 团队工具、长期维护、生产或敏感操作：直接走 [Full Track](workflows/full.md)。
 - 想理解每个阶段为什么这样设计：阅读阶段深潜系列 [02](docs/02-prototype-first.md) → [03](docs/03-architecture-and-sdd.md) → [04](docs/04-context-engineering.md) → [05](docs/05-tdd-and-feedback-loop.md) → [06](docs/06-ops-readiness.md) → [07](docs/07-e2e-and-human-acceptance.md)。
