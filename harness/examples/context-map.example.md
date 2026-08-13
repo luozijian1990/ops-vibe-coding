@@ -23,7 +23,7 @@ docs/security.md
 
 context/project/ops-platform/cluster/restart-api/
 contracts/restart-api.openapi.yaml
-.service-matrix/dependencies.yaml
+.service-matrix/dependencies.yaml（仅当多服务项目维护该文件时）
 
 ## Kubernetes 变更 Ticket
 

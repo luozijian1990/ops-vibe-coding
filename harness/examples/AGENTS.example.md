@@ -32,8 +32,9 @@ context/harness-framework/
 只加载 `context/project/` 下与当前 Ticket 匹配的路径。
 
 服务契约：
-以 IDL 作为接口的单一真相源。涉及跨服务变更时，读取
-`.service-matrix/dependencies.yaml` 并验证受影响的消费者。
+多服务项目以 IDL 作为接口的单一真相源。涉及跨服务变更且项目维护了
+`.service-matrix/dependencies.yaml` 时，读取对应关系并验证受影响的消费者。
+小型或单服务项目无需为使用 Harness 而引入 Service Matrix。
 
 # 开发规则
 

@@ -1,3 +1,6 @@
+# Advanced example for multi-service projects.
+# Optional for small or single-service projects.
+
 version: 1
 
 services:

@@ -18,8 +18,8 @@ Test Reports
 Architecture
 Ops Rules
 Scoped Context
-IDL
-Service Matrix
+IDL（复杂契约项目按需）
+Service Matrix（多服务项目按需）
 ```
 
 这些全部是仓库里的版本化文件，而不是某个 AI 产品的会话记录。仓库在哪里，工程资产就在哪里。
@@ -31,7 +31,7 @@ Workflow 不变          流程定义在 workflows/
 Artifacts 不变          产物定义在 references/artifacts.md
 Rules 不变              规则在 AGENTS.md + docs/
 Acceptance Criteria 不变 验收条件在 Spec 和 Ticket 里
-Service Contracts 不变   接口在 IDL，关系在 Service Matrix
+Service Contracts 不变   采用时，接口在 IDL，关系在 Service Matrix
 ```
 
 新的运行时只需要做一件事：**读同一套仓库资产**。

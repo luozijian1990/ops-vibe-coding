@@ -46,7 +46,8 @@ sop/              标准操作规程
 Skill             可复用工作流
 ```
 
-采用作用域化 Context 时，可以进一步定位：
+采用作用域化 Context 时，可以进一步定位；多服务项目再按需使用 IDL 和
+Service Matrix：
 
 ```text
 context/team/                                   跨项目团队规范
@@ -57,7 +58,7 @@ IDL                                             服务接口契约
 .service-matrix/dependencies.yaml               跨服务关系
 ```
 
-规则进入哪个位置取决于其适用范围，而不是发现错误时碰巧在哪个目录工作。修改 IDL 或服务矩阵也必须经过 `Propose → Human Approve → Persist`，并执行相应兼容性验证。
+规则进入哪个位置取决于其适用范围，而不是发现错误时碰巧在哪个目录工作。项目采用 IDL 或 Service Matrix 时，对它们的修改也必须经过 `Propose → Human Approve → Persist`，并执行相应兼容性验证。
 
 ## 怎么判断是否值得沉淀
 

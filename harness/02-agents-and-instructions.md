@@ -71,6 +71,9 @@ Interface Shape      → IDL（OpenAPI / Protobuf 等）
 Service Relationship → .service-matrix/dependencies.yaml
 ```
 
+其中 IDL 与 Service Matrix 适用于采用 machine-readable contracts 的多服务或复杂
+契约项目。小型或单服务项目可以只维护与自身复杂度相称的接口和依赖文档。
+
 其他文档引用即可，不要重复维护整套定义。一次修改，全项目保持相同语义。
 
 ## 常见错误（Anti-patterns）

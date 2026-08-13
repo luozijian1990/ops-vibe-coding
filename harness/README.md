@@ -78,8 +78,19 @@ Claude Code / Codex / OpenCode / Gemini CLI / Cursor
 - **Capability does not imply permission**：AI 能执行，不代表有权执行；
 - **Human controls irreversible decisions**：高风险操作保留人机协同（HITL）；
 - **Errors should improve future context**：有复用价值的纠错应沉淀为团队资产；
-- **Runtime is replaceable**：工程知识不应该绑定某一个 AI Coding 产品；
-- **Contracts should be machine-readable**：接口和跨服务关系尽量由 IDL 与 Service Matrix 表达，AI 不凭猜测补依赖。
+- **Runtime is replaceable**：工程知识不应该绑定某一个 AI Coding 产品。
+
+## Advanced / Multi-service Patterns
+
+当项目进入多模块、多服务、跨仓或复杂 API 契约场景时，可以进一步使用
+machine-readable contracts，减少 Agent 对接口和依赖关系的猜测。例如：
+
+- OpenAPI、Protobuf 或其他 IDL；
+- Service dependency map；
+- Service Matrix。
+
+这些能力不是 Harness 第一版的默认要求。简单单体工具和内部平台无需为了遵守
+Harness 而引入它们；只有项目复杂度和变更风险提供了具体证据时才按需采用。
 
 ## 文档地图
 
@@ -93,7 +104,7 @@ Claude Code / Codex / OpenCode / Gemini CLI / Cursor
 | [06-tool-and-permission-boundaries.md](06-tool-and-permission-boundaries.md) | AI 能做什么、有权做什么、什么必须人来批准 |
 | [07-runtime-portability.md](07-runtime-portability.md)                       | 换工具时如何保住工程资产                  |
 
-示例：[examples/](examples/) 提供可直接改写的最小模板（AGENTS.md、Context Map、Gate Record、Session Handoff、Service Matrix）。
+示例：[examples/](examples/) 提供可直接改写的核心模板（AGENTS.md、Context Map、Gate Record、Session Handoff）。Service Matrix 是面向多服务项目的 Advanced Example，小型或单服务项目可不使用。
 
 ## 与现有文档的关系
 
