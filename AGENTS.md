@@ -6,4 +6,6 @@ Issues and specs are tracked as local Markdown files under `.scratch/`. See `doc
 
 ### Domain docs
 
-This is a single-context repository. See `docs/agents/domain.md`.
+This repository contains methodology and documentation.
+
+Keep each issue or ticket focused on one primary context. See `docs/agents/domain.md`.
